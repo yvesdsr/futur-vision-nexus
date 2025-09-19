@@ -5,11 +5,11 @@ export function CyberNavigation() {
   const [isHovered, setIsHovered] = useState<string | null>(null)
 
   const navItems = [
-    { label: "HOME", id: "home", icon: "🏠" },
-    { label: "3D WORLD", id: "world", icon: "🌐" },
-    { label: "NEURAL NET", id: "ai", icon: "🧠" },
-    { label: "MATRIX", id: "matrix", icon: "💫" },
-    { label: "CONTACT", id: "contact", icon: "📡" }
+    { label: "ACCUEIL", id: "home", icon: "🏠" },
+    { label: "TECH", id: "tech", icon: "💻" },
+    { label: "SPIRITUALITÉ", id: "spiritualite", icon: "🧘‍♀️" },
+    { label: "ACTUALITÉS", id: "actualites", icon: "📰" },
+    { label: "CONTACT", id: "contact", icon: "📧" }
   ]
 
   return (

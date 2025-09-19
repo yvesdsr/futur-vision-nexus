@@ -67,34 +67,34 @@ function FeatureScene({ type }: { type: string }) {
 export function CyberFeatures() {
   const features = [
     {
-      id: 'ai',
-      title: 'NEURAL INTELLIGENCE',
-      description: 'Advanced AI algorithms power every interaction, creating truly intelligent user experiences.',
-      icon: '🧠',
+      id: 'tech',
+      title: 'TECH & INNOVATION',
+      description: 'Découvrez les dernières innovations technologiques, startups françaises et révolutions numériques.',
+      icon: '💻',
       color: 'cyber-cyan',
       scene: 'ai'
     },
     {
-      id: '3d',
-      title: '3D REVOLUTION',
-      description: 'Immersive three-dimensional environments that respond to your every move.',
-      icon: '🌐',
+      id: 'spiritualite',
+      title: 'SPIRITUALITÉ 2.0',
+      description: 'Explorez la fusion entre technologie et spiritualité dans notre monde connecté.',
+      icon: '🧘‍♀️',
       color: 'cyber-pink',
       scene: '3d'
     },
     {
-      id: 'matrix',
-      title: 'QUANTUM MATRIX',
-      description: 'Harness the power of quantum computing for unprecedented performance.',
-      icon: '⚛️',
+      id: 'crypto',
+      title: 'BLOCKCHAIN & CRYPTO',
+      description: 'Analyses approfondies sur les cryptomonnaies, NFTs et l\'économie décentralisée.',
+      icon: '₿',
       color: 'cyber-purple',
       scene: 'matrix'
     },
     {
-      id: 'hologram',
-      title: 'HOLOGRAPHIC UI',
-      description: 'Revolutionary interface design with holographic elements and glassmorphism.',
-      icon: '💫',
+      id: 'futur',
+      title: 'FUTUR NUMÉRIQUE',
+      description: 'Anticipez les tendances de demain : IA, métaverse, et transformation sociale.',
+      icon: '🚀',
       color: 'cyber-green',
       scene: 'ai'
     }
@@ -122,7 +122,7 @@ export function CyberFeatures() {
           }}
         >
           <span className="bg-gradient-text bg-clip-text text-transparent">
-            CYBER FEATURES
+            NOS RUBRIQUES
           </span>
         </motion.h2>
         <motion.p
@@ -132,7 +132,7 @@ export function CyberFeatures() {
           transition={{ delay: 0.3, duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Discover the revolutionary technologies that power the future of digital experiences
+          Plongez dans l'univers fascinant où technologie de pointe rencontre sagesse ancestrale
         </motion.p>
       </motion.div>
 
@@ -214,7 +214,7 @@ export function CyberFeatures() {
                   whileHover={{ scale: 1.05, boxShadow: `0 0 20px hsl(var(--${feature.color}) / 0.4)` }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  EXPLORE
+                  DÉCOUVRIR
                 </motion.button>
                 
                 <motion.div
@@ -269,10 +269,10 @@ export function CyberFeatures() {
       >
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {[
-            { value: "∞", label: "POSSIBILITIES", color: "cyber-cyan" },
-            { value: "99.9%", label: "UPTIME", color: "cyber-pink" },
-            { value: "0ms", label: "LATENCY", color: "cyber-purple" },
-            { value: "100%", label: "FUTURE", color: "cyber-green" }
+            { value: "50K+", label: "LECTEURS", color: "cyber-cyan" },
+            { value: "500+", label: "ARTICLES", color: "cyber-pink" },
+            { value: "24/7", label: "ACTUALITÉS", color: "cyber-purple" },
+            { value: "∞", label: "INSPIRATION", color: "cyber-green" }
           ].map((stat, index) => (
             <motion.div
               key={index}

@@ -87,9 +87,9 @@ function CyberButton({ children, variant = "primary", ...props }: any) {
 
 export function CyberHero() {
   const floatingTexts = [
-    "NEURAL NETWORK", "QUANTUM COMPUTING", "AI REVOLUTION", 
-    "DIGITAL TRANSFORMATION", "CYBER MATRIX", "HOLOGRAPHIC DISPLAY",
-    "BLOCKCHAIN TECH", "METAVERSE", "AUGMENTED REALITY", "IOT SENSORS"
+    "INTELLIGENCE ARTIFICIELLE", "BLOCKCHAIN", "CRYPTOMONNAIES", 
+    "TRANSFORMATION NUMÉRIQUE", "MÉDITATION", "SPIRITUALITÉ MODERNE",
+    "TECH FRANÇAISE", "STARTUPS", "INNOVATION", "CONSCIENCE DIGITALE"
   ]
 
   return (
@@ -136,7 +136,7 @@ export function CyberHero() {
                 ease: "linear"
               }}
             >
-              CYBER
+              TECH
             </motion.span>
           </GlitchText>
           
@@ -155,7 +155,7 @@ export function CyberHero() {
               ease: "easeInOut"
             }}
           >
-            REVOLUTION 3D
+            MAGAZINE FUTURISTE
           </motion.h1>
         </motion.div>
 
@@ -166,9 +166,9 @@ export function CyberHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          Experience the future of web design with revolutionary 3D animations, 
-          <span className="text-cyber-cyan"> holographic interfaces</span>, and 
-          <span className="text-cyber-pink"> neural-powered interactions</span>
+          Découvrez l'actualité technologique et spirituelle du futur avec des
+          <span className="text-cyber-cyan"> articles immersifs</span> et une 
+          <span className="text-cyber-pink"> expérience de lecture révolutionnaire</span>
         </motion.p>
 
         {/* CTA Buttons */}
@@ -179,7 +179,7 @@ export function CyberHero() {
           transition={{ delay: 1.5, duration: 0.8 }}
         >
           <CyberButton>
-            <span>ENTER THE MATRIX</span>
+            <span>EXPLORER LE MAGAZINE</span>
             <motion.span
               animate={{ rotate: [0, 360] }}
               transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
@@ -189,7 +189,7 @@ export function CyberHero() {
           </CyberButton>
           
           <CyberButton variant="secondary">
-            <span>EXPLORE 3D WORLD</span>
+            <span>LIRE LES ARTICLES</span>
             <motion.span
               animate={{ x: [0, 5, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
@@ -207,9 +207,9 @@ export function CyberHero() {
           transition={{ delay: 2, duration: 1 }}
         >
           {[
-            { number: "99.9%", label: "Performance", icon: "🚀" },
-            { number: "∞", label: "Possibilities", icon: "🌌" },
-            { number: "100%", label: "Future Ready", icon: "🤖" }
+            { number: "500+", label: "Articles Tech", icon: "📱" },
+            { number: "∞", label: "Possibilités", icon: "🌌" },
+            { number: "100%", label: "Spiritualité 2.0", icon: "🧘‍♀️" }
           ].map((stat, index) => (
             <motion.div
               key={index}
